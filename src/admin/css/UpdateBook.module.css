@@ -1,0 +1,43 @@
+.updateBookContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px 10px;
+    background-color: #eee;
+}
+.listOfBooks{
+    padding: 10px;
+    background-color: black;
+    border-radius: 15px;
+}
+.booksTable{
+    color:white;
+    font-weight: bolder;
+    border-collapse: collapse;
+    width: 100%;
+}
+.booksTable .title{
+    color:aqua;
+    font-weight: bolder;
+}
+.booksTable .edit{
+    color:greenyellow;
+    font-weight: bolder;
+}
+.booksTable .delete{
+    color:red;
+    font-weight: bolder;
+}
+.booksTable td,.booksTable th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.booksTable td{
+    text-transform: lowercase;
+}
+.booksTable button{
+    padding: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.dashboardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px 10px;
+    background-color: #eee;
+}
+.dashboardContainer h2{
+    text-align: center;
+}
+.dashboardContainer .crud{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+.dashboardContainer .crud{
+    max-width:500px;
+    height: 300px;
+    background-color: black;
+    border-radius: 15px;
+}
+.dashboardContainer .crud ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.dashboardContainer .crud ul li{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}

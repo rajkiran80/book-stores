@@ -1,0 +1,42 @@
+.createBookContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px 10px;
+    background-color: #eee;
+}
+.createBookContainer h3{
+    text-align: center;
+}
+.createFormWrapper{
+    width:500px;
+    height: 320px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.createFormWrapper form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.createFormWrapper input{
+    width:200px;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.createFormWrapper input[type="submit"]{
+    background-color: aqua;
+    cursor: pointer;
+}

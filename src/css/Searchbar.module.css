@@ -1,0 +1,16 @@
+.searchBar{
+    margin: 30px;
+    min-width: 300px;
+}
+.searchBar input{
+    padding: 10px;
+    width:100%;
+}
+@media only screen and (max-width:430px){
+    .searchBar{
+        min-width:250px;
+    }
+    .searchBar input{
+        width:100%;
+    }
+}

@@ -1,0 +1,28 @@
+.registerWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:320px;
+}
+.registerWrapper input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border:none;
+    outline: none;
+    width:200px;
+    border-radius: 10px;
+    border:1px solid black
+}
+.registerWrapper .authTitle{
+    transform: translateY(-10px);
+}
+.registerWrapper .btn{
+    background-color:#3d9bb0;
+    padding:7px 10px;
+    color:#eee;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 4px 3px rgb(79, 79, 139);
+}

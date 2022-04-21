@@ -1,0 +1,29 @@
+.loginWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+}
+.loginWrapper input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border:none;
+    outline: none;
+    width:200px;
+    border-radius: 10px;
+    border:1px solid black
+}
+.loginWrapper .authTitle{
+    transform: translateY(-15px);
+}
+.loginWrapper .btn{
+    background-color:#F36666;
+    padding:7px 10px;
+    color:white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transform: translateY(10px);
+    box-shadow: 3px 4px 3px rgb(79, 79, 139);
+}
